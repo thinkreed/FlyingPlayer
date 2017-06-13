@@ -15,7 +15,7 @@ export default class PlayerScreen extends React.Component {
                     this.video = ref
                 }}
                     //来自本地的MP4视频
-                    source={require('../../assets/dcw.mp4')}
+                    source={{uri:'file:///storage/emulated/0/SHAREit/videos/dcw.mp4'}}
                     //1.0表示默认速率
                     rate={1.0}
                     //图片等比例缩放
